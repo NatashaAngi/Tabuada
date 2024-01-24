@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{margin: 0;
+padding: 0;
+border: none;
+outline: none;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;}
+
+body{background-color: rgb(32, 31, 31);}
+
+.container{width: 500px;;background: linear-gradient(95deg, #111111, #2b2b2d 98%);margin: 0 auto; margin-top: 50px;border: 1px solid greenyellow; border-radius: 10px;}
+
+.aviso{color:azure;font-family: 'Dosis', sans-serif; text-align: center; margin-top: 20px;margin-bottom: 28px;}
+
+.form-control{align-items: center;margin: auto; justify-content: center; text-align: center; margin-bottom: 20px;}
+
+label{color: azure;font-family:'Dosis', sans-serif;}
+
+input{padding: 2px;border-radius: 3px;background-color:rgb(62, 59, 59);border: 1px solid greenyellow;text-align: center;color: azure;}
+
+.btn{color: azure;padding:4px;border: 0.5px solid greenyellow;cursor: pointer;box-shadow: 2px 2px 2px black;margin-left: 220px;margin-bottom: 20px;}
+
+.btn:hover{background-color: greenyellow;color: black; border: 1px solid black;box-shadow: 2px 2px 2px black inset;}
+
+.btn:active{top:2px;position: relative;}
+
+.title{color: azure; text-align: center; margin-bottom: 15px;}
+
+.informe{color:azure;text-align: center; margin-bottom: 15px}
+
+#numero{color: greenyellow;}
+
+.row {display: flex;margin: auto; justify-content: center;}
+.operations{color: azure;text-align: center; margin-bottom: 15px}
+.result{color:greenyellow;text-align: center; margin-left: 4px;}
